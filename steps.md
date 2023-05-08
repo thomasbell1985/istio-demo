@@ -8,11 +8,14 @@ start the minikube tunnel
 1. provision cluster
 1. minikube tunnel
 1. provision dashboard
-1. Show dashboard
+1. Show kiali dashboard
     ```sh
-    istioctl dashboard
+    istioctl dashboard kiali
     ```
-
+1. Show grafana dashboard
+    ```sh
+    istioctl dashboard grafana
+    ```
 
 ```
 minikube tunnel
